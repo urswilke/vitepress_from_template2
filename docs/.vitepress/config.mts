@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  outDir: "../public",
+  base: "/vitepress_from_template2/",
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
