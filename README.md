@@ -1,1 +1,3 @@
-deployed [here](https://vitepress-from-template2-urswilke-295c17a73cbd456dc43a7cf324dd1.gitlab.io/)
+This repo has 2 remotes: [here](https://gitlab.com/urswilke/vitepress_from_template2) and [here](https://github.com/urswilke/vitepress_from_template2). The last commit was only pushed to github (see below).
+
+For Gitlab, it's deployed [here](https://vitepress-from-template2-urswilke-295c17a73cbd456dc43a7cf324dd1.gitlab.io/). However, on gitlab you  need to set the `outDir: "../public"` option in the config. To deploy it with github actions (see [here](https://urswilke.github.io/vitepress_from_template2/)), you need to set the `base: "/vitepress_from_template2/"` option. See the [related issue](https://github.com/vuejs/vitepress/issues/4055).
